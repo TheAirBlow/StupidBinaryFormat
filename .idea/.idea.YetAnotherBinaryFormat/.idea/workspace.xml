@@ -9,60 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45c0e45-9a71-4858-99d6-5cdc340d2696" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StupidBinaryFormat/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.YetAnotherBinaryFormat/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/Attributes/DoNotSerializeAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/Attributes/ForceSerializeAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/Attributes/FormerlySerializedAsAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/BinarySerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/EntryType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/SBF.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Core/TypeHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Array.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Bool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Byte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Dictionary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/DisposableDroid.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Dynamic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Float.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Int.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/Short.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/String.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/UInt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/ULong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Assets/UShort.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Icons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/SBF.Editor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/TreeNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Utilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/AddItemWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/ChangeTypeWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/EditItemWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/ResizeArrayWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/SaveFileWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/Windows/TreeWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/libnfd.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/libnfd.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Editor/nfd.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Tests/MainTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBF.Tests/SBF.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StupidBinaryFormat.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StupidBinaryFormat.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingApplication/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingApplication/TestingApplication.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheAirBlow.DataFormat.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YetAnotherBinaryFormat.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YetAnotherBinaryFormat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YetAnotherBinaryFormat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBF.Editor/TreeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SBF.Editor/TreeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBF.Editor/Windows/AddItemWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SBF.Editor/Windows/AddItemWindow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,34 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.TestingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.YABF.Editor.executor&quot;: &quot;Run&quot;,
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;a273281a-69e1-4f8b-838f-07442f3b471a.executor&quot;: &quot;Run&quot;,
-    &quot;e3102b99-caee-4177-8c89-867b0efe4bf1.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.TestingApplication.executor": "Run",
+    ".NET Project.YABF.Editor.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "a273281a-69e1-4f8b-838f-07442f3b471a.executor": "Run",
+    "e3102b99-caee-4177-8c89-867b0efe4bf1.executor": "Run",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/home/theairblow/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/home/theairblow/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/home/theairblow/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/theairblow/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/home/theairblow/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/home/theairblow/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="YABF.Editor" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -158,7 +107,7 @@
       <workItem from="1708872661090" duration="7384000" />
       <workItem from="1708935120616" duration="14776000" />
       <workItem from="1708954591862" duration="16028000" />
-      <workItem from="1709021818720" duration="20417000" />
+      <workItem from="1709021818720" duration="21235000" />
     </task>
     <servers />
   </component>

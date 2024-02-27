@@ -125,7 +125,6 @@ public class TreeNode {
     /// <param name="key">New Key</param>
     public void ChangeKeyTo(EntryType type, object? key = null) {
         key ??= Utilities.GetDefault(type);
-        if (NodeKeyType == type) return; 
         // It's safe to assume parent is a dictionary thanks
         // to the GUI being smart about disabling elements
         var dict = (IDictionary)Parent!.NodeValue;
@@ -142,7 +141,6 @@ public class TreeNode {
     /// <param name="keyType">Key Entry Type</param>
     public void ChangeValueTo(EntryType type, object? value = null,
         EntryType? valueType = null, EntryType? keyType = null) {
-        if (NodeValueType == type && ValueType == valueType && KeyType == keyType) return;
         value ??= Utilities.GetDefault(type, valueType, keyType);
         ValueType = valueType; KeyType = keyType; 
         NodeValueType = type; NodeValue = value;

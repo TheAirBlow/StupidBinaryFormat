@@ -104,25 +104,19 @@ public class AddItemWindow : GuiWindow {
                         case EntryType.Array: {
                             var node = new TreeNode(key, "", _node, NodeType.DictionaryElement);
                             node.ChangeValueTo(EntryType.Array, valueType: _value!.Value);
-                            var dict = (IDictionary)_node.NodeValue; 
-                            dict.Add(key, node.NodeValue);
                             _node.Children.Add(node);
                             break;
                         }
                         case EntryType.Dictionary: {
                             var node = new TreeNode(key, "", _node, NodeType.DictionaryElement);
                             node.ChangeValueTo(EntryType.Dictionary, valueType: _value, keyType: _key);
-                            var dict = (IDictionary)_node.NodeValue;
-                            dict.Add(key, node.NodeValue);
                             _node.Children.Add(node);
                             break;
                         }
                         default: {
                             var value = Utilities.ParseString(_valueString, _nodeValue);
-                            var node = new TreeNode(key, value, _node, NodeType.DictionaryElement);
-                            var dict = (IDictionary)_node.NodeValue; 
-                            dict.Add(key, value);
-                            _node.Children.Add(node);
+                            var node = new TreeNode(key, "", _node, NodeType.DictionaryElement);
+                            node.ChangeValueTo(_nodeValue, value); _node.Children.Add(node);
                             break;
                         }
                     }
